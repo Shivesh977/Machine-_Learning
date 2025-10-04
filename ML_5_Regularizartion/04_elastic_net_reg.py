@@ -30,4 +30,4 @@ reg.fit(X_train,y_train)
 y_pred = reg.predict(X_test)
 print(r2_score(y_test,y_pred)) # 0.4531493801165679 
 
-# Elastic net is giving besy performance 
+# Elastic net is giving besyt performance 
