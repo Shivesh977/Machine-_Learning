@@ -1,6 +1,12 @@
 # Here we are importing a data set representing cgpa and package of students 
 # We have to develop a simple linear regression model to predict package of student based on given cgpa 
 
+# Why we use random_state
+
+# Reproducibility:
+# Ensures others can get the same results when running your code.
+
+
 import pandas as pd  
 import numpy as np 
 import matplotlib.pyplot as plt   
